@@ -1,4 +1,3 @@
-# funcion que suma n cantidad de numeros
 def suma(n):
     sum = 0
     for i in range(n):
