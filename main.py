@@ -6,7 +6,7 @@ from credits import credits
 from menu import menu
 from suma import suma
 from factorial import factorial
-from CubCua import CubCua
+from cubo_cuadrado import CubCua
 
 G  = '\033[32m'
 W  = '\033[0m'
