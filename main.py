@@ -9,7 +9,12 @@ from mul import multiplicar
 from tablas_mult import tablas
 from factorial import factorial
 from cubo_cuadrado import CubCua
+<<<<<<< HEAD
 from minimo_maximo import MinMax
+=======
+from promedio import promedio
+from division import division
+>>>>>>> c4518583dd60032d81ddd1341b1aacab1c3a0d8b
 
 G  = '\033[32m'
 W  = '\033[0m'
@@ -37,30 +42,30 @@ def main():
             print(suma(n))
 
         elif(answer == 'Producto'):
-            print('Aquí se hará el producto')
+            multiplicar()
 
         elif(answer == 'División'):
-            print('Aquí se hará la división')
+            division()
 
         elif(answer == 'Factorial'):
             num = int(input('¿Qué número desea calcular su factorial? '))
             print(factorial(num))
 
         elif(answer == 'Tablas Multiplicar'):
-            print('Aquí se harán las tablas de multiplicar')
+            tablas()
 
         elif(answer == 'Cuadrado y Cubo'):
             CubCua()
 
         elif(answer == 'Promedio'):
-            print('Aquí se hará el promedio')
+            promedio()
 
         elif(answer == 'Máximo y mínimo'):
             MinMax()
         else:
             break
 
-        time.sleep(2)
+        time.sleep(3)
         os.system("clear")
     
     credits()
