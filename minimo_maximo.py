@@ -17,4 +17,3 @@ def MinMax():
     print ('Usted introdujo ', num, "numeros")
     print ('El Maximo es: ', Max)
     print ('El Minimo es: ', Min)
-MinMax()
