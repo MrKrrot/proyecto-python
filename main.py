@@ -6,6 +6,7 @@ from credits import credits
 from menu import menu
 from suma import suma
 from factorial import factorial
+from CubCua import CubCua
 
 G  = '\033[32m'
 W  = '\033[0m'
@@ -20,7 +21,7 @@ def main():
         questions = [
             inquirer.List('operation',
             message="¿Qué operación desea realizar?",
-            choices=['Suma', 'Producto', 'División', 'Factorial', 'Tablas Multiplicar', 'Promedio', 'Máximo y mínimo', 'Salir'],
+            choices=['Suma', 'Producto', 'División', 'Factorial', 'Tablas Multiplicar', 'Cuadrado y Cubo', 'Promedio', 'Máximo y mínimo', 'Salir'],
             ),
         ]
         answer = inquirer.prompt(questions).get('operation')
@@ -44,6 +45,10 @@ def main():
 
         elif(answer == 'Tablas Multiplicar'):
             print('Aquí se harán las tablas de multiplicar')
+
+        elif(answer == 'Cuadrado y Cubo'):
+            print('Aquí se harán el cuadrado y cubo')
+            CubCua()
 
         elif(answer == 'Promedio'):
             print('Aquí se hará el promedio')
