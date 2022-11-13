@@ -1,8 +1,5 @@
 def division():
-    print ('A continuacion se pueden realizar divisiones')
-    print ('Por favor, inserte el primer numero')
-    num1 = float(input('">>'))
-    print ('Por favor, inserte el segundo numero')
-    num2 = float(input('">>'))
+    num1 = float(input('Inserte el primer numero: '))
+    num2 = float(input('Inserte el segundo numero: '))
     result = num1/num2
-    print ('El resultado da un total de ',result)
+    print ('El resultado es:',result)
