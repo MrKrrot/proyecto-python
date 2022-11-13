@@ -5,6 +5,7 @@ import time
 from credits import credits
 from menu import menu
 from suma import suma
+from mul import mul
 from factorial import factorial
 from CubCua import CubCua
 
