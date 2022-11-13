@@ -5,7 +5,8 @@ import time
 from credits import credits
 from menu import menu
 from suma import suma
-from mul import mul
+from mul import multiplicar
+from tablas_mult import tablas
 from factorial import factorial
 from cubo_cuadrado import CubCua
 
