@@ -9,6 +9,7 @@ from mul import multiplicar
 from tablas_mult import tablas
 from factorial import factorial
 from cubo_cuadrado import CubCua
+from minimo_maximo import MinMax
 
 G  = '\033[32m'
 W  = '\033[0m'
