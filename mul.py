@@ -1,7 +1,9 @@
-cantidad = 1
-n=int(input("Cantidad"))
-for i in range(n):
-    valor = int(input("numero"))
-    cantidad *= valor 
+def multiplicar():
+    cantidad = 1
+    n=int(input("Cantidad de numeros que va a editar: "))
+    for i in range(n):
+        valor = int(input("Numero: "))
+        cantidad *= valor 
 
-print("La cantidad es: ",cantidad)
+    print("El producto es: ",cantidad)
+multiplicar()
