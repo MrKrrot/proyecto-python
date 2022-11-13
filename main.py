@@ -9,12 +9,9 @@ from mul import multiplicar
 from tablas_mult import tablas
 from factorial import factorial
 from cubo_cuadrado import CubCua
-<<<<<<< HEAD
 from minimo_maximo import MinMax
-=======
 from promedio import promedio
 from division import division
->>>>>>> c4518583dd60032d81ddd1341b1aacab1c3a0d8b
 
 G  = '\033[32m'
 W  = '\033[0m'
