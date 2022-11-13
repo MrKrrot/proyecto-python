@@ -47,7 +47,6 @@ def main():
             print('Aquí se harán las tablas de multiplicar')
 
         elif(answer == 'Cuadrado y Cubo'):
-            print('Aquí se harán el cuadrado y cubo')
             CubCua()
 
         elif(answer == 'Promedio'):
