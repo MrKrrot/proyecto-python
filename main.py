@@ -1,7 +1,9 @@
 import os
+import time
+
 import inquirer
 import pyfiglet
-import time
+
 from credits import credits
 from menu import menu
 from suma import suma
