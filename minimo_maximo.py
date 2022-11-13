@@ -14,6 +14,6 @@ def MinMax():
         if Numeros[k]>Max:
          Max=Numeros[k]
         k=k+1
-    print ('Usted introdujo ', num, "numeros")
-    print ('El Maximo es: ', Max)
-    print ('El Minimo es: ', Min)
+    print ('Introdujo', num, "numeros")
+    print ('El Maximo es:', Max)
+    print ('El Minimo es:', Min)
