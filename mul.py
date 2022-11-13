@@ -6,4 +6,3 @@ def multiplicar():
         cantidad *= valor 
 
     print("El producto es: ",cantidad)
-multiplicar()

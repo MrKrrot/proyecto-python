@@ -38,7 +38,7 @@ def main():
             print(suma(n))
 
         elif(answer == 'Producto'):
-            print('Aquí se hará el producto')
+            multiplicar()
 
         elif(answer == 'División'):
             division()
@@ -48,7 +48,7 @@ def main():
             print(factorial(num))
 
         elif(answer == 'Tablas Multiplicar'):
-            print('Aquí se harán las tablas de multiplicar')
+            tablas()
 
         elif(answer == 'Cuadrado y Cubo'):
             CubCua()
@@ -61,7 +61,7 @@ def main():
         else:
             break
 
-        time.sleep(2)
+        time.sleep(3)
         os.system("clear")
     
     credits()
