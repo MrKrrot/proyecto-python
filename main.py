@@ -7,7 +7,7 @@ from menu import menu
 from suma import suma
 from mul import mul
 from factorial import factorial
-from CubCua import CubCua
+from cubo_cuadrado import CubCua
 
 G  = '\033[32m'
 W  = '\033[0m'
@@ -48,7 +48,6 @@ def main():
             print('Aquí se harán las tablas de multiplicar')
 
         elif(answer == 'Cuadrado y Cubo'):
-            print('Aquí se harán el cuadrado y cubo')
             CubCua()
 
         elif(answer == 'Promedio'):
