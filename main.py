@@ -55,7 +55,7 @@ def main():
             print('Aquí se hará el promedio')
 
         elif(answer == 'Máximo y mínimo'):
-            print('Aquí se hará el máximo y mínimo')
+            MinMax()
         else:
             break
 
